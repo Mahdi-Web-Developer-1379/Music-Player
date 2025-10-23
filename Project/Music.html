@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   
+   <link rel="stylesheet" href="all.css">
+    <link rel="stylesheet" href="Music.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="wrapper">
+
+        <div class="top-header">
+            <i class="fa fa-ellipsis-h "></i>
+            <p>MUSIC PLAYER</p>
+            <i class="fas fa-angle-down"></i>
+        </div>
+        
+
+        <div class="image-area">
+            <img src="" alt="" class="images">
+        </div>
+
+        <div class="name-artist">
+            <p class="name"></p>
+            <p class="artists"></p>
+        </div>
+
+       <audio id="audioElement" src="../MusicFile/Music 1-alkislar.mp3"></audio>
+
+        <div class="progress-area">
+            <div class="progress-bar"></div>
+        </div>
+
+        <div class="timer">
+            <span class="current">00:40</span>
+            <span class="duration">03:12</span>
+        </div>
+
+        <div class="controls">
+            <i id="Reapet" class="fas fa-retweet"></i>
+            <i id="backward" class="fa fa-step-backward"></i>
+            <div  class="play-pause">
+                <i class="fa fa-play"></i>
+            </div>
+            <i id="forward" class="fa fa-step-forward"></i>
+            <i id="music-Lists-Ul" class="fa fa-list-ul"></i>
+        </div>
+
+
+
+        <div class="music-list">
+            <div class="list-header">
+                <div class="header-texts">
+                    <i class="fa fa-list-ul"></i>
+                    <p>Music List</p>
+                </div>
+                <i id="close" class=" fa fa-close"></i>
+            </div>
+            <ul class="ul-lists">
+              
+            </ul>
+
+        </div>
+
+
+
+
+    </div>
+
+    <script src="Music.js"></script>
+    <script src="musicList.js"></script>
+    <!-- <script src="https://kit.fontawesome.com/6bba920b39.js" crossorigin="anonymous"></script> -->
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+<!-- 
+    fa fa-step-forward 
+    fa fa-step-backward
+    fa fa-play-circle-o
+    fa fa-play-circle
+    fa fa-play
+    fa fa-pause-circle-o
+    fa fa-pause-circle
+    fa fa-pause
+    fa fa-ellipsis-h 
+    fas fa-random
+    fas fa-sync-alt
+    fas fa-retweet
+    fa fa-close
+    <li class="lists">
+        <div class="li-name-artist">
+            <p class="li-name">Lose yourself</p>
+            <p class="li-artist">Eminem</p>
+        </div>
+        <audio class="music 2-lose_yourself" src="../MusicFile/music 2-lose_yourself.mp3"></audio>
+        <span class="duration">ss</span>
+    </li>
+
+-->
